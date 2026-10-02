@@ -6,7 +6,9 @@ let browserName = 'chrome';//coming from csv/config file
 switch (browserName) {
     case BROWSERS.CHROME:
         console.log('open chrome');
+        console.log('open firefox');
         break;
+        
     case BROWSERS.FIREFOX:
         console.log('open ff');
         console.log('testing');
